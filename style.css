@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'harukaze';
+    font-family: 'backtoschool';
+    src: url("fonts/Harukaze.ttf") format('truetype');
+    src: url("fonts/varsity_regular.ttf") format('truetype');
+}
+body{
+    font-family: 'backtoschool';
+    background-color: white;
+    margin: 0%;
+}
+
+header{
+    border-bottom: 1px solid lightslategrey;
+}
+
+header img{
+    width: 170px;
+    height: 65px;
+
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(230, 230, 230, 0.603);
+    width: 100%;
+}
+.leftfoot{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+ .rightfoot a{
+    color: black;
+    text-decoration: none;
+}
+.leftfoot a{
+    color: black;
+    text-decoration: none;
+}
+.rightfoot{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightfoot a{
+    margin:0%;
+    padding: 0%;
+}
+.leftfoot a{
+    margin:0%;
+    padding: 0%;
+}
+figure{
+
+    height: 200px;
+    width: 200px;
+
+}
+.produits, .produitsfinition{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+#coif{
+ 
+    border-bottom: solid 0.5px lightslategrey;
+    margin: 20px;
+    margin-right: 50%;
+   font-family: 'harukaze';
+
+}
+figure img{
+    height: 200px;
+}
+.card{
+    height: 50%;
+    width: 50%;
+}
+
+#coiffeurs{
+    margin: 20px;
+}
+ /* popup */
+ .overlay {
+    position: fixed;
+    left: 0px;
+    top:0px;
+    background-color: rgba(0,0 ,0 , 0.5);
+    width: 100%;
+    height: 100%;
+    z-index:1;
+    display:block;
+    }
+    .popup{
+        margin: 10% auto;
+        width : 70%;
+        background-color: rgb(243, 243, 243);
+        padding: 1em;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        }
+        .btnClose {
+            float: right;
+            font-size:16pt;
+            cursor: pointer;
+            color: rgb(26, 26, 26);
+            }
+
+#produits{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 30px;
+   text-align: center;
+    
+}
+#produits figure{
+     border: 1px solid black;
+    border-radius: 15px;
+    height: 335px;
+    overflow: hidden;
+}
+#produits figcaption{
+    border-top: black solid 1px;
+}
+#produits figure:hover{
+    box-shadow: 5px 5px 4px black;
+}
+#produits img{
+    overflow: hidden;
+}
+
+#magicclip{
+    margin: 20px;
+
+}
+
+#magicclip img{
+height: 335px;
+}
+
+.commande{
+    display: flex;
+ 
+}
+.commande img{
+    height: 200px;
+    width: 140px;
+}
+
+.ficheproduit img{
+    height: 500px;
+    width: auto;
+    
+}
+
+.ficheproduit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    border-top: solid 5px black;
+    background-color: darkgray;
+}
+.tab p{
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+.tab img{
+    height: 200px;
+    border: solid 2.5px black;
+}
+#total{
+    text-align: center;
+    border-top: solid 5px black;
+    border-bottom: black solid 2.5px;
+}

@@ -1,0 +1,2 @@
+password_hash()
+password_verify()
